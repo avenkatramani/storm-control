@@ -47,7 +47,7 @@ class HamamatsuCameraControl(cameraControl.HWCameraControl):
         max_intensity = 2**self.camera.getPropertyValue("bit_per_channel")[0]
         self.parameters.setv("max_intensity", max_intensity)
 
-        self.parameters.setv("exposure_time", 0.1)
+        self.parameters.setv("exposure_time", 0.25)
 
         x_chip = self.camera.getPropertyValue("image_width")[0]
         y_chip = self.camera.getPropertyValue("image_height")[0]
@@ -81,7 +81,7 @@ class HamamatsuCameraControl(cameraControl.HWCameraControl):
                                                       value = text_values[1],
                                                       allowed = text_values,
                                                       is_saved = False))
-
+                                                     
         self.parameters.add(params.ParameterRangeInt(description = "Read out speed",
                                                      name = "readout_speed",
                                                      value = 2,

@@ -461,7 +461,7 @@ class HalCore(QtCore.QObject):
             else:
                 all_modules[module_name] = True
 
-        print("")
+        print(" ")
 
         # Connect signals.
         for module in self.modules:
@@ -724,6 +724,7 @@ if (__name__ == "__main__"):
     import argparse
     import sys
 
+
     # Get command line arguments..
     parser = argparse.ArgumentParser(description = 'STORM microscope control software')
     parser.add_argument('config', type = str, help = "The name of the configuration file to use.")
@@ -731,6 +732,7 @@ if (__name__ == "__main__"):
                         help = "The name of a settings xml file to use as the default.")
 
     args = parser.parse_args()
+ 
     
     # Start..
     app = QtWidgets.QApplication(sys.argv)
@@ -747,7 +749,7 @@ if (__name__ == "__main__"):
 
     # Load configuration.
     config = params.config(args.config)
-
+    
     # Start logger.
     hdebug.startLogging(config.get("directory") + "logs/", "hal4000")
     
