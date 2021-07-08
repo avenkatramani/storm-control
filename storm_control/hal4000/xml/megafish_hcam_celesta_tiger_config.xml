@@ -5,7 +5,7 @@
         <directory type="directory">M:/Data/</directory>
 
         <!-- The setup name -->
-        <setup_name type="string">MEGAFISH</setup_name>
+        <setup_name type="string">Lightsheet</setup_name>
 
         <!-- The ui type, this is 'classic' or 'detached' -->
         <ui_type type="string">classic</ui_type>
@@ -76,8 +76,9 @@
                 <flip_vertical desc="Flip image vertical (mosaic)" type="boolean">False</flip_vertical>
                 <transpose desc="Transpose image (mosaic)" type="boolean">True</transpose>
                 <objective desc="Current objective" type="string" values="obj1,obj2">obj1</objective>
-                <obj1 desc="Objective 1" type="custom">60x,0.108,0.0,0.0</obj1>
-                <obj2 desc="Objective 2" type="custom">10x,0.65,0.0,0.0</obj2>
+                <obj1 desc="Objective 1" type="Nikon">60x,1.4,0.0,0.0</obj1>
+                <obj2 desc="Objective 2" type="Nikon">40x,0.95,0.0,0.0</obj2>
+				<obj3 desc="Objective 3" type="Snouty">40x,1.0,0.0,0.0</obj3>
             </parameters>
         </mosaic>
 

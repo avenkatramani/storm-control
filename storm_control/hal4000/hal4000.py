@@ -588,6 +588,8 @@ class HalCore(QtCore.QObject):
         """
         Adds a message to the queue of images to send.
         """
+        
+        
         # Check the message and it to the queue.
         if self.strict:
             if not message.m_type in halMessage.valid_messages:

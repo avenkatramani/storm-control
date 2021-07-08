@@ -210,12 +210,9 @@
 		  <class_name type="string">galvoModule</class_name>
 		  <configuration>
 			<ao_fn_name type="string">daq.galvo1.ao_task</ao_fn_name>
-			<maximum type="float">1.0</maximum>
-	        <minimum type="float">0.0</minimum>
-			<scan type="string">0.0,100.0,200.0,300.0,400.0,500.0,600.0,700.0,900.0</scan>
-			<!--
-			<scan type="string">0.0,100.0,200.0,300.0,400.0,500.0,600.0,700.0,900.0</scan>
-			-->
+			<maximum type="float">1000.0</maximum> <!-- in mV -->
+	        <minimum type="float">-1000.0</minimum>
+			<scan type="string">0.0, 1000.0, 1.0</scan> <!-- Format = start, stop, step -->
 			<used_during_filming type="boolean">True</used_during_filming>
 		  </configuration>
 		</galvo>
@@ -231,46 +228,46 @@
         </tcp_control>
 		
 		<!-- Crystal Technologies AOTF (Telnet) -->
-		<!--
+		
 			<ctech_aotf>
 			  <module_name type="string">storm_control.sc_hardware.crystalTechnologies.aotfModule</module_name>
 			  <class_name type="string">AOTF64BitModule</class_name>
 			  <configuration>
-				<use_fsk type="boolean">True</use_fsk>
+				<use_fsk type="boolean">False</use_fsk>
 				<fsk_mode type="int">3</fsk_mode>
 				<python32_exe type="string">C:\Users\Zhuang\anaconda3_32\python.exe</python32_exe>
 
 				<ch750>
-				  <maximum type="int">9000</maximum>
+				  <maximum type="int">16383</maximum>
 				  <channel type="int">0</channel>
 				  <off_frequency type="float">20.0</off_frequency> 
-				  <on_frequency type="float">90.9</on_frequency>   Frequency for 650 
+				  <on_frequency type="float">76.40</on_frequency>   Frequency for 750 
 				</ch750>
 
 				<ch647>
-				  <maximum type="int">9000</maximum>
+				  <maximum type="int">16383</maximum>
 				  <channel type="int">1</channel>
 				  <off_frequency type="float">20.0</off_frequency> 
-				  <on_frequency type="float">90.9</on_frequency>   Frequency for 650 
+				  <on_frequency type="float">89.56</on_frequency>   Frequency for 647 
 				</ch647>
 				
 				<ch560>
-				  <maximum type="int">9000</maximum>
+				  <maximum type="int">16383</maximum>
 				  <channel type="int">2</channel>
 				  <off_frequency type="float">20.0</off_frequency>
-				  <on_frequency type="float">108.9</on_frequency>  Frequency for 560
+				  <on_frequency type="float">110.3</on_frequency>  Frequency for 560
 				</ch560>
 
 				<ch488>
-				  <maximum type="int">9000</maximum>
+				  <maximum type="int">16383</maximum>
 				  <channel type="int">3</channel>
 				  <off_frequency type="float">20.0</off_frequency>
-				  <on_frequency type="float">130.7</on_frequency>  Frequency for 488 
+				  <on_frequency type="float">129.85</on_frequency>  Frequency for 488 
 				</ch488>
 
 			  </configuration>
 			</ctech_aotf>
-		-->
+		
 	
 		<!-- Coherent OBIS 405 laser control. 
 		<obis405>
@@ -286,7 +283,7 @@
 		
 		
 		
-		<!-- Illumination (lasers, shutters, etc) control GUI.
+		<!-- Illumination (lasers, shutters, etc) control GUI. -->
         <illumination>
             <class_name type="string">Illumination</class_name>
             <module_name type="string">storm_control.hal4000.illumination.illumination</module_name>
@@ -336,7 +333,7 @@
                 </ch5> 
 
             </configuration>
-        </illumination>-->
+        </illumination>
      
 		<!-- DAQ control -->
 		<daq>
@@ -349,7 +346,7 @@
 				-->
 
 				<timing>
-					<camera_fire_pin type="string">/Dev1/PFI0</camera_fire_pin>
+					<camera_fire_pin type="string">/Dev1/PFI12</camera_fire_pin>
 					<counter type="string">/Dev1/ctr2</counter>
 					<rising_edge type="boolean">True</rising_edge>  
 				</timing>

@@ -10,6 +10,8 @@ import datetime
 import struct
 import tifffile
 import time
+import zarr
+import numpy as np
 
 from PyQt5 import QtCore
 
@@ -34,7 +36,7 @@ def availableFileFormats(test_mode):
     if test_mode:
         return [".dax", ".tif", ".big.tif", ".test"]
     else:
-        return [".dax", ".tif", ".big.tif"]
+        return [".dax", ".tif", ".big.tif", ".zarr"]
 
 def createFileWriter(camera_functionality, film_settings):
     """
@@ -58,6 +60,11 @@ def createFileWriter(camera_functionality, film_settings):
     elif (ft == ".tif"):
         return TIFFile(camera_functionality = camera_functionality,
                        film_settings = film_settings)
+                       
+    elif (ft == ".zarr"):
+        return ZarrFile(camera_functionality = camera_functionality,
+                       film_settings = film_settings)
+                       
     else:
         raise ImageWriterException("Unknown output file format '" + ft + "'")
 
@@ -102,6 +109,46 @@ class BaseFileWriter(object):
         self.number_frames += 1
 
 
+class ZarrFile(BaseFileWriter):
+    """
+    Zarr file writing class.
+    """
+    def __init__(self, **kwds):
+        super().__init__(**kwds)
+        group = self.filename.split("_")[-1].split(".")[0]
+        root = zarr.open(self.filename, mode='w')
+        group = root.create_group(group)
+        self.z1 = group.empty('data', shape=(1,2304,2304), chunks=(1,2304,2304))
+        
+    def closeWriter(self):
+        """
+        Close the file and write a very simple .inf file. All the metadata is
+        now stored in the .xml file that is saved with each recording.
+        """
+        super().closeWriter()
+        
+        w = str(self.cam_fn.getParameter("x_pixels"))
+        h = str(self.cam_fn.getParameter("y_pixels"))
+        with open(self.basename + ".inf", "w") as inf_fp:
+            inf_fp.write("binning = 1 x 1\n")
+            inf_fp.write("data type = 16 bit integers (binary, little endian)\n")
+            inf_fp.write("frame dimensions = " + w + " x " + h + "\n")
+            inf_fp.write("number of frames = " + str(self.number_frames) + "\n")
+            if True:
+                inf_fp.write("x_start = 1\n")
+                inf_fp.write("x_end = " + w + "\n")
+                inf_fp.write("y_start = 1\n")
+                inf_fp.write("y_end = " + h + "\n")
+            inf_fp.close()
+
+    def saveFrame(self, frame):
+        
+        super().saveFrame()
+        image = frame.getData()
+        image = np.array(image)
+        image = image.reshape(1,2304,2304)
+        self.z1.append(image)
+        
 class DaxFile(BaseFileWriter):
     """
     Dax file writing class.

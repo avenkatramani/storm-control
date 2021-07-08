@@ -14,6 +14,7 @@ import storm_control.sc_hardware.nationalInstruments.nicontrol as nicontrol
 import storm_control.sc_library.hdebug as hdebug
 import storm_control.sc_library.halExceptions as halExceptions
 
+import time
 
 class NidaqModuleException(halExceptions.HardwareException):
     pass
@@ -185,7 +186,7 @@ class WVTaskFunctionality(daqModule.DaqFunctionality):
 
            (2) Lines needs to be in an order that is acceptable to NI.
     """
-    def __init__(self, clock = None, lines = None, max_val = 10.0, min_val = -10.0, **kwds):
+    def __init__(self, clock = None, lines = None, max_val = 1.0, min_val = -1.0, **kwds):
         super().__init__(**kwds)
         self.clock = clock
         self.lines = lines
@@ -246,6 +247,7 @@ class WVTaskFunctionality(daqModule.DaqFunctionality):
                                clock = self.clock,
                                finite = finite,
                                rising = rising)
+
 
         if start:
             self.task.startTask()
@@ -322,12 +324,16 @@ class NidaqModule(daqModule.DaqModule):
         Get ready for waveform output when we get the film timing message, which
         includes the frames per second information that we need.
         """
+        
+        
         if self.run_shutters:
 
             # Get frames per second from the timing functionality. This is
             # a property of the camera that drives the timing functionality.
+            
             timing_fn = message.getData()["properties"]["functionality"]
             fps = timing_fn.getFPS()
+            
             if (fps <= 0.0):
                 raise NidaqModuleException("FPS is <= 0.0 for time base '" + timing_fn.getTimeBase() + "'")
             
@@ -337,11 +343,14 @@ class NidaqModule(daqModule.DaqModule):
 
             # If oversampling is 1 then just trigger the ao_task 
             # and do_task directly off the camera fire pin.
-            if (self.oversampling == 1):
-                wv_clock = self.timing.get("camera_fire_pin")
-            else:
-                wv_clock = self.timing.get("counter_out")
+            
+            #if (self.oversampling == 1):
+            #    wv_clock = self.timing.get("camera_fire_pin")
+            #else:
+            #    wv_clock = self.timing.get("counter_out")
 
+            wv_clock = self.timing.get("camera_fire_pin")
+            
             # Setup the counter.
             self.setupCounter(frequency)
             
@@ -365,10 +374,13 @@ class NidaqModule(daqModule.DaqModule):
         Configures for analog waveform output.
         """
         self.ao_task = None
+        
+        
         if (len(self.analog_waveforms) > 0):
             
             # Mark all the functionalities whose resources we'll need during
             # filming, and have them emit the 'filming' signal.
+            
             for waveform in self.analog_waveforms:
                 self.daq_fns_by_source[waveform.getSource()].setFilming(True)
 
@@ -380,6 +392,8 @@ class NidaqModule(daqModule.DaqModule):
             for data in analog_data:
                 waveforms.append(data.getWaveform())
 
+            
+            
             def startAoTask():
                 
                 try:

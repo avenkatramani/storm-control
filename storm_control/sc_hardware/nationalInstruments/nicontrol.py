@@ -62,7 +62,7 @@ class AnalogOutput(NIDAQTask):
     """
     Simple analog output class
     """
-    def __init__(self, source = None, min_val = -10.0, max_val = 10.0, **kwds):
+    def __init__(self, source = None, min_val = -1.0, max_val = 1.0, **kwds):
         super().__init__(**kwds)
         with getLock():
             self.CreateAOVoltageChan(source,
@@ -155,7 +155,7 @@ class AnalogWaveformOutput(NIDAQTask):
     """
     Analog waveform output class.
     """
-    def __init__(self, source = None, min_val = -10.0, max_val = 10.0, **kwds):
+    def __init__(self, source = None, min_val = -1.0, max_val = 1.0, **kwds):
         super().__init__(**kwds)
         
         self.channels = 1
@@ -208,6 +208,7 @@ class AnalogWaveformOutput(NIDAQTask):
         else:
             rising = PyDAQmx.DAQmx_Val_Falling
         
+                
         with getLock():
             self.CfgSampClkTiming(clock,
                                   sample_rate,
@@ -217,6 +218,8 @@ class AnalogWaveformOutput(NIDAQTask):
 
         # Transfer the waveform data to the DAQ board buffer.
         waveform = numpy.ascontiguousarray(numpy.concatenate(waveforms), dtype = numpy.float64)        
+        
+        
         c_samples_written = ctypes.c_long(0)
         with getLock():
             self.WriteAnalogF64(waveform_len,
@@ -226,7 +229,7 @@ class AnalogWaveformOutput(NIDAQTask):
                                 waveform,
                                 ctypes.byref(c_samples_written),
                                 None)
-
+        
         if (c_samples_written.value != waveform_len):
             msg = "Failed to write the right number of samples "
             msg += str(c_samples_written.value) + " " + str(waveform_len)

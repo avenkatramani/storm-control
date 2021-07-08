@@ -41,8 +41,8 @@ class GalvoView(halDialog.HalDialog):
         self.ui.downLButton.clicked.connect(self.handleDownLButton)
 
         self.ui.zeroButton.clicked.connect(self.handleZeroButton)
-
         self.ui.goButton.clicked.connect(self.handleGoButton)
+        
         
         # Set to minimum size & fix.
         self.adjustSize()
@@ -60,7 +60,7 @@ class GalvoView(halDialog.HalDialog):
                                                        min_value = 0.0,
                                                        max_value = 1000.0))
         
-        self.setEnabled(False)
+        #self.setEnabled(False)
 
     def getParameters(self):
         return self.parameters
@@ -94,9 +94,8 @@ class GalvoView(halDialog.HalDialog):
     def setFunctionality(self, galvo_fn):
         self.galvo_fn = galvo_fn
         self.galvo_fn.galvoVoltage.connect(self.handleGalvoVoltage)
-        self.ui.goSpinBox.setMinimum(self.galvo_fn.getMinimum())
-        self.ui.goSpinBox.setMaximum(self.galvo_fn.getMaximum())
-        self.setEnabled(True)
+        
+        self.galvo_fn.zero()  
 
 
 class Galvo(halModule.HalModule):

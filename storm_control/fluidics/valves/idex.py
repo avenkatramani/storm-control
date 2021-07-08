@@ -22,7 +22,7 @@ class TitanValve(AbstractValve):
                 baudrate = 9600,
                 timeout=0.5)
         #give the arduino time to initialize
-        time.sleep(2)
+        time.sleep(10)
         self.port_count = self.getPortCount()
         self.updateValveStatus()
 
@@ -78,7 +78,7 @@ class TitanValve(AbstractValve):
         return port_ID < self.port_count
 
     def write(self, message):
-        appendedMessage = message + '\r'
+        appendedMessage = message + '\n'
         self.serial.write(appendedMessage.encode())
 
     def read(self):

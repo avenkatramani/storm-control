@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <branch name="Movie Loop">
+    <branch name="bleach_000">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_000</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_001">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_001</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_002">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_002</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_003">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_003</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_004">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_004</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_005">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_005</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_006">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_006</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_007">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_007</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_008">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_008</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_009">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_009</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_010">
+      <DAMoveStage>
+        <stage_x type="float">0.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_010</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_011">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_011</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_012">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_012</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_013">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_013</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_014">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_014</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_015">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_015</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_016">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_016</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_017">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_017</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_018">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_018</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_019">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_019</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_020">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_020</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_021">
+      <DAMoveStage>
+        <stage_x type="float">1.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_021</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_022">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_022</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_023">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_023</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_024">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_024</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_025">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_025</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_026">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_026</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_027">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_027</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_028">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_028</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_029">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_029</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_030">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_030</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_031">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_031</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_032">
+      <DAMoveStage>
+        <stage_x type="float">2.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_032</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_033">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_033</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_034">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_034</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_035">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_035</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_036">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_036</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_037">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_037</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_038">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_038</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_039">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_039</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_040">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_040</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_041">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_041</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_042">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_042</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_043">
+      <DAMoveStage>
+        <stage_x type="float">3.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_043</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_044">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_044</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_045">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_045</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_046">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_046</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_047">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_047</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_048">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_048</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_049">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_049</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_050">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_050</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_051">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_051</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_052">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_052</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_053">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_053</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_054">
+      <DAMoveStage>
+        <stage_x type="float">4.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_054</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_055">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_055</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_056">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_056</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_057">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_057</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_058">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_058</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_059">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_059</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_060">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_060</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_061">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_061</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_062">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_062</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_063">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_063</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_064">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_064</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_065">
+      <DAMoveStage>
+        <stage_x type="float">5.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_065</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_066">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_066</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_067">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_067</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_068">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_068</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_069">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_069</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_070">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_070</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_071">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_071</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_072">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_072</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_073">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_073</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_074">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_074</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_075">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_075</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_076">
+      <DAMoveStage>
+        <stage_x type="float">6.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_076</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_077">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_077</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_078">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_078</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_079">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_079</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_080">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_080</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_081">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_081</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_082">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_082</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_083">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_083</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_084">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_084</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_085">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_085</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_086">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_086</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_087">
+      <DAMoveStage>
+        <stage_x type="float">7.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_087</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_088">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_088</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_089">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_089</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_090">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_090</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_091">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_091</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_092">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_092</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_093">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_093</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_094">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_094</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_095">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_095</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_096">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_096</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_097">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_097</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_098">
+      <DAMoveStage>
+        <stage_x type="float">8.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_098</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_099">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_099</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_100">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_100</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_101">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_101</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_102">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_102</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_103">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_103</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_104">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_104</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_105">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_105</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_106">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_106</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_107">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_107</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_108">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_108</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_109">
+      <DAMoveStage>
+        <stage_x type="float">9.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_109</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_110">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">0.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_110</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_111">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">1.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_111</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_112">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">2.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_112</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_113">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">3.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_113</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_114">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">4.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_114</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_115">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">5.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_115</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_116">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">6.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_116</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_117">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">7.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_117</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_118">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">8.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_118</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_119">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">9.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_119</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="bleach_120">
+      <DAMoveStage>
+        <stage_x type="float">10.0</stage_x>
+        <stage_y type="float">10.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">bleach_120</name>
+        <length type="int">10</length>
+      </DATakeMovie>
+    </branch>
+  </branch>
+</sequence>

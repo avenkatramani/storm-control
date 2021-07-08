@@ -237,6 +237,8 @@ class HalMessage(QtCore.QObject):
                  source = None,
                  sync = False,
                  **kwds):
+                 
+        
         """
         data - Python object containing the message data. This must be a dictionary.
 

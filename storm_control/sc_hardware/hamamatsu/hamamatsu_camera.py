@@ -304,6 +304,13 @@ class HamamatsuCamera(object):
         # Get camera properties.
         self.properties = self.getCameraProperties()
 
+        self.setPropertyValue('output_trigger_source[0]', 'READOUT END')
+        self.setPropertyValue('output_trigger_polarity[0]', 'POSITIVE')
+        self.setPropertyValue('output_trigger_active[0]', 'EDGE')
+        self.setPropertyValue('output_trigger_delay[0]', 0.0)
+        self.setPropertyValue('output_trigger_period[0]', 0.001)
+        self.setPropertyValue('output_trigger_kind[0]', 'PROGRAMABLE')
+        
         # Get camera max width, height.
         self.max_width = self.getPropertyValue("image_width")[0]
         self.max_height = self.getPropertyValue("image_height")[0]

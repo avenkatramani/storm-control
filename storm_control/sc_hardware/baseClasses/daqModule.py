@@ -32,6 +32,7 @@ class DaqWaveform(object):
         self.oversampling = oversampling # This is relative to the camera speed.
         self.waveform = waveform
         self.source = source
+        
 
     def getOversampling(self):
         return self.oversampling
@@ -109,9 +110,11 @@ class DaqModule(hardwareModule.HardwareModule):
 
     def configure1(self, message):
         pass
+    
 
-    def daqWaveforms(self, message):
+    def daqWaveforms(self, message):  
         waveforms = message.getData()["waveforms"]
+        
         for waveform in waveforms:
             assert isinstance(waveform, DaqWaveform)
 
@@ -136,7 +139,7 @@ class DaqModule(hardwareModule.HardwareModule):
         pass
     
     def processMessage(self, message):
-
+        
         if message.isType("configuration") and message.sourceIs("timing"):
             self.filmTiming(message)
             

@@ -150,13 +150,13 @@
        <item>
         <widget class="QGroupBox" name="groupBox">
          <property name="title">
-          <string>Volt</string>
+          <string>Volt (mV)</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout">
           <item>
            <widget class="QLabel" name="galvoVoltLabel">
             <property name="text">
-             <string>NA</string>
+             <string>0.0</string>
             </property>
            </widget>
           </item>
@@ -191,14 +191,29 @@
           </item>
           <item>
            <widget class="QDoubleSpinBox" name="goSpinBox">
+            <property name="frame">
+             <bool>true</bool>
+            </property>
+            <property name="readOnly">
+             <bool>false</bool>
+            </property>
+            <property name="decimals">
+             <number>2</number>
+            </property>
             <property name="minimum">
-             <double>-10000.000000000000000</double>
+             <double>-1000.000000000000000</double>
             </property>
             <property name="maximum">
-             <double>10000.000000000000000</double>
+             <double>1000.000000000000000</double>
             </property>
             <property name="singleStep">
              <double>0.050000000000000</double>
+            </property>
+            <property name="stepType">
+             <enum>QAbstractSpinBox::DefaultStepType</enum>
+            </property>
+            <property name="value">
+             <double>0.000000000000000</double>
             </property>
            </widget>
           </item>

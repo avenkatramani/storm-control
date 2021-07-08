@@ -10,7 +10,7 @@
       </DAMoveStage>
       <DATakeMovie>
         <name type="str">bleach_0</name>
-        <length type="int">10</length>
+        <length type="int">1000</length>
       </DATakeMovie>
     </branch>
     <branch name="bleach_1">
@@ -20,7 +20,7 @@
       </DAMoveStage>
       <DATakeMovie>
         <name type="str">bleach_1</name>
-        <length type="int">10</length>
+        <length type="int">1000</length>
       </DATakeMovie>
     </branch>
   </branch>

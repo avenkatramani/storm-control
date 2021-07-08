@@ -47,7 +47,7 @@ class HamamatsuCameraControl(cameraControl.HWCameraControl):
         max_intensity = 2**self.camera.getPropertyValue("bit_per_channel")[0]
         self.parameters.setv("max_intensity", max_intensity)
 
-        self.parameters.setv("exposure_time", 0.25)
+        self.parameters.setv("exposure_time", 0.05)
 
         x_chip = self.camera.getPropertyValue("image_width")[0]
         y_chip = self.camera.getPropertyValue("image_height")[0]

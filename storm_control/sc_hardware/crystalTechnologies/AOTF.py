@@ -188,6 +188,7 @@ class AOTF(object):
         """
         Sets the frequencies of the specified channel.
         """
+
         assert(channel >= 0)
         assert(channel < 8)
         frequency_string = ""
@@ -197,7 +198,8 @@ class AOTF(object):
             frequency_string += " " + str(frequency)
         cmd = "dds f " + str(channel) + frequency_string
         self._sendCmd(cmd)
-
+        
+        
     def setFrequency(self, channel, frequency):
         """
         Set the frequency of the specified channel. 
