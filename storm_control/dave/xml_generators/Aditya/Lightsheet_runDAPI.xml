@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <branch name="Movie Loop">
+    <branch name="DAPI_00">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_00</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_01">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_01</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_02">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_02</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_03">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_03</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_04">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_04</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_05">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_05</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_06">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_06</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_07">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_07</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_08">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_08</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_09">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_09</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_10">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_10</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_11">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_11</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_12">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_12</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_13">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_13</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_14">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_14</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_15">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_15</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_16">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_16</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_17">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_17</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_18">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_18</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_19">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_19</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_20">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_20</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_21">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_21</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_22">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_22</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_23">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_23</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_24">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_24</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_25">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_25</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_26">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_26</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_27">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_27</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_28">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_28</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_29">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_29</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_30">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_30</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_31">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_31</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_32">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_32</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_33">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_33</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_34">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_34</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="DAPI_35">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">DAPI_35</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+  </branch>
+</sequence>

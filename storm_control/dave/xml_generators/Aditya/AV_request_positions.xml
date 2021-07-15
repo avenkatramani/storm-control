@@ -9,8 +9,8 @@
 
 <item name = "Movie 1">
   <movie>
-    <name increment = "Yes">bleach</name>
-    <length>10</length>
+    <name increment = "Yes">Beads</name>
+    <length>334</length>
     <variable_entry name = "Movie Loop"></variable_entry>
   </movie>
 </item>

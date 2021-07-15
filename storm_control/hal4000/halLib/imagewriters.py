@@ -118,7 +118,7 @@ class ZarrFile(BaseFileWriter):
         group = self.filename.split("_")[-1].split(".")[0]
         root = zarr.open(self.filename, mode='w')
         group = root.create_group(group)
-        self.z1 = group.empty('data', shape=(1,2304,2304), chunks=(1,2304,2304))
+        self.z1 = group.empty('data', shape=(1,2304,2304), chunks=(1,2304,2304), dtype='uint16')
         
     def closeWriter(self):
         """

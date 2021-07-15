@@ -212,7 +212,7 @@
 			<ao_fn_name type="string">daq.galvo1.ao_task</ao_fn_name>
 			<maximum type="float">1000.0</maximum> <!-- in mV -->
 	        <minimum type="float">-1000.0</minimum>
-			<scan type="string">0.0, 1000.0, 1.0</scan> <!-- Format = start, stop, step -->
+			<scan type="string">-167, 167, 1.0</scan> <!-- Format = start, stop, step -->
 			<used_during_filming type="boolean">True</used_during_filming>
 		  </configuration>
 		</galvo>

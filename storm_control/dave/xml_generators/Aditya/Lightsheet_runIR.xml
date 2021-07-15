@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <branch name="Movie Loop">
+    <branch name="IR_00">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_00</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_01">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_01</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_02">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_02</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_03">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_03</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_04">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_04</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_05">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_05</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_06">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_06</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_07">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_07</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_08">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_08</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_09">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_09</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_10">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_10</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_11">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_11</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_12">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_12</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_13">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_13</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_14">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_14</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_15">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_15</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_16">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_16</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_17">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_17</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_18">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_18</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_19">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_19</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_20">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_20</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_21">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_21</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_22">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_22</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_23">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_23</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_24">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_24</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_25">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_25</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_26">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_26</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_27">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_27</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_28">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_28</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_29">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_29</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_30">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_30</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_31">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_31</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_32">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_32</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_33">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_33</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_34">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_34</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="IR_35">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">IR_35</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+  </branch>
+</sequence>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <branch name="Movie Loop">
+    <branch name="Red_00">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_00</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_01">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_01</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_02">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_02</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_03">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_03</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_04">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_04</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_05">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_05</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_06">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_06</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_07">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_07</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_08">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_08</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_09">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_09</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_10">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_10</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_11">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_11</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_12">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_12</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_13">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_13</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_14">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_14</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_15">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_15</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_16">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_16</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_17">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_17</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_18">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_18</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_19">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_19</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_20">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_20</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_21">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_21</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_22">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_22</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_23">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_23</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_24">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_24</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_25">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_25</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_26">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_26</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_27">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_27</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_28">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_28</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_29">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_29</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_30">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_30</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_31">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_31</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_32">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_32</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_33">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_33</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_34">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_34</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+    <branch name="Red_35">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DATakeMovie>
+        <name type="str">Red_35</name>
+        <length type="int">334</length>
+      </DATakeMovie>
+    </branch>
+  </branch>
+</sequence>
