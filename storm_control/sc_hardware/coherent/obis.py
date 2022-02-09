@@ -93,10 +93,13 @@ class Obis(RS232.RS232):
         """
         Turn on/off external control mode.
         """
+        
         if mode:
+            #self.sendCommand("SOURce:AM:INTernal CWP")
             self.sendCommand("SOURce:AM:EXTernal DIGital")
         else:
-            self.sendCommand("SOURce:AM:INTernal CWP")
+            self.sendCommand("SOURce:AM:EXTernal DIGital")
+            #self.sendCommand("SOURce:AM:INTernal CWP")
         self.waitResponse()
 
     def setLaserOnOff(self, on):

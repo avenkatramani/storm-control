@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+    
+    
+    <change_directory>N:\Data\DNAFish08062021\Protein</change_directory>
+<!--
+    <valve_protocol>Protein Block</valve_protocol>
+	<valve_protocol>Protein Primary</valve_protocol>
+	<valve_protocol>Protein Wash</valve_protocol>
+	<valve_protocol>Flow Imaging</valve_protocol>
+	   -->
+	<loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 560"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+ 
+
+</command_sequence>
+
+
+<item name = "Movie 750">
+  <movie>
+    <name increment = "Yes">750</name>
+    <length>400</length>
+    <parameters>lightsheet_setting_750</parameters>
+  </movie>
+</item>
+
+<item name = "Movie 647">
+  <movie>
+    <name increment = "Yes">647</name>
+    <length>400</length>
+    <parameters>lightsheet_setting_647</parameters>
+  </movie>
+</item>
+
+<item name = "Movie 560">
+  <movie>
+    <name increment = "Yes">560</name>
+    <length>400</length>
+    <parameters>lightsheet_setting_560</parameters>
+  </movie>
+</item>
+
+<item name = "Movie 488">
+  <movie>
+    <name increment = "Yes">488</name>
+    <length>400</length>
+    <variable_entry name = "Movie Loop"></variable_entry>
+    <parameters>lightsheet_setting_488</parameters>
+  </movie>
+</item>
+
+<item name = "Movie 405">
+  <movie>
+    <name increment = "Yes">405</name>
+    <length>400</length>
+    <variable_entry name = "Movie Loop"></variable_entry>
+    <parameters>lightsheet_setting_405</parameters>
+  </movie>
+</item>
+
+<loop_variable name = "Movie Loop">
+   <file_path></file_path>
+</loop_variable>
+
+</recipe>

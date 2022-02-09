@@ -27,6 +27,7 @@ class CoherentLaserFunctionality(amplitudeModule.AmplitudeFunctionalityBuffered)
         self.mustRun(task = self.laser.setPower,
                      args = [0.01 * power])
         self.on = state
+        
 
     def output(self, power):
         if self.on:

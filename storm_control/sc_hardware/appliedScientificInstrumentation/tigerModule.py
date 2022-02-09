@@ -15,6 +15,7 @@ import storm_control.sc_hardware.baseClasses.amplitudeModule as amplitudeModule
 import storm_control.sc_hardware.baseClasses.hardwareModule as hardwareModule
 import storm_control.sc_hardware.baseClasses.stageModule as stageModule
 import storm_control.sc_hardware.baseClasses.stageZModule as stageZModule
+import storm_control.sc_hardware.baseClasses.stageo3Module as stageo3Module
 import storm_control.sc_hardware.baseClasses.voltageZModule as voltageZModule
 
 import storm_control.sc_hardware.appliedScientificInstrumentation.tiger as tiger
@@ -161,7 +162,61 @@ class TigerZStageFunctionality(stageZModule.ZStageFunctionalityBuffered):
     
     def zMoveTo(self, z_pos):
         return -1.0*super().zMoveTo(-z_pos)
+   
+
+class Tigero3StageFunctionality(stageo3Module.o3StageFunctionalityBuffered):
     
+    def __init__(self, update_interval = None, velocity = None, **kwds):
+        super().__init__(**kwds)
+
+        # Set initial o3 velocity.
+        self.mustRun(task = self.o3_stage.o3SetVelocity,
+                     args = [velocity])
+        
+        # This timer to restarts the update timer after a move. It appears
+        # that if you query the position during a move the stage will stop
+        # moving.
+        self.restart_timer = QtCore.QTimer()
+        self.restart_timer.setInterval(2000)
+        self.restart_timer.timeout.connect(self.handleRestartTimer)
+        self.restart_timer.setSingleShot(True)
+
+        # Each time this timer fires we'll query the z stage position. We need
+        # to do this as the user might use the controller to directly change
+        # the stage z position.
+        self.update_timer = QtCore.QTimer()
+        self.update_timer.setInterval(update_interval)
+        self.update_timer.timeout.connect(self.handleUpdateTimer)
+        self.update_timer.start()
+        
+    def goAbsolute(self, o3_pos):
+        # We have to stop the update timer because if it goes off during the
+        # move it will stop the move.
+        self.update_timer.stop()
+        super().goAbsolute(o3_pos)
+        self.restart_timer.start()
+
+    def goRelative(self, o3_delta):
+        o3_pos = self.o3_position + o3_delta
+        self.goAbsolute(o3_pos)        
+
+    def handleRestartTimer(self):
+        self.update_timer.start()
+        
+    def handleUpdateTimer(self):
+        self.mustRun(task = self.position,
+                     ret_signal = self.o3StagePosition)
+
+    def position(self):
+        self.o3_position = self.o3_stage.o3Position()["o3"]
+        return self.o3_position
+
+    def zero(self):
+        self.mustRun(task = self.o3_stage.o3Zero)
+        self.o3StagePosition.emit(0.0)
+    
+    def o3MoveTo(self, o3_pos):
+        return super().o3MoveTo(o3_pos)   
         
 #
 # Inherit from stageModule.StageModule instead of the base class so we don't
@@ -215,6 +270,14 @@ class TigerController(stageModule.StageModule):
                                                           velocity = settings.get("velocity", 1.0),
                                                           z_stage = self.controller)
                     self.functionalities[self.module_name + "." + dev_name] = z_stage_fn
+                    
+                elif (dev_name == "o3_stage"):
+                    settings = devices.get(dev_name)
+                    o3_stage_fn = Tigero3StageFunctionality(device_mutex = self.controller_mutex,
+                                                          update_interval = 500,
+                                                          velocity = settings.get("velocity", 1.0),
+                                                          o3_stage = self.controller)
+                    self.functionalities[self.module_name + "." + dev_name] = o3_stage_fn
 
                 elif (dev_name.startswith("led")):
                     settings = devices.get(dev_name)

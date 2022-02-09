@@ -201,7 +201,11 @@ class LockControl(QtCore.QObject):
         #        be None. Not sure whether it is best to just fail here as we do
         #        now or whether we should check for this.
         #
+        
+
         self.lock_mode.handleQPDUpdate(qpd_dict)
+
+
 
         # Save image if we have a valid tiff counter.
         #
@@ -231,6 +235,8 @@ class LockControl(QtCore.QObject):
                 tcp_message.addResponse("duration", 2)
                 
             else:
+                #import time
+                #time.sleep(1)
                 # Record current state.
                 assert (self.current_state == None)
                 self.current_state = {"locked" : self.lock_mode.amLocked(),
@@ -310,7 +316,7 @@ class LockControl(QtCore.QObject):
             self.working = True
             # Start polling the QPD.
             self.qpd_functionality.getOffset()
-        
+            
     def startFilm(self, film_settings):
         # Open file to save the lock status at each frame.
         if self.working:

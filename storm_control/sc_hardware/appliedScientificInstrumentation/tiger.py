@@ -26,6 +26,7 @@ class Tiger(RS232.RS232):
         self.x = 0
         self.y = 0
         self.z = 0
+        self.o3 = 0
 
         # Try and connect to the controller.
         try:
@@ -54,7 +55,7 @@ class Tiger(RS232.RS232):
         # This also turns off the stage motors to disable position
         # feedback control during movies.
         if on:
-            self.commWithResp("J X+ Y+")
+            self.commWithResp("J X=2 Y=3 Z=22")
             self.commWithResp("MC X+ Y+ Z+")
         else:
             self.commWithResp("J X- Y-")
@@ -111,6 +112,35 @@ class Tiger(RS232.RS232):
         
     def zZero(self):
         self.commWithResp("H Z")
+        
+        
+    def o3MoveTo(self, o3):
+        """
+        Move the o3 stage to the specified position (in microns).
+        """
+        self.commWithResp("M M={0:.2f}".format(o3 * self.um_to_unit))
+
+    def o3Position(self):
+        """
+        Query for current o3 position in microns.
+        """
+        new_o3 = self.o3
+        try:
+            temp = self.commWithResp("W M")
+            new_o3 = float(temp.split(" ")[1])*self.unit_to_um
+        except ValueError:
+            print("Tiger.zPosition(): could not parse -", temp, "-")            
+        self.o3 = new_o3
+        return {"o3" : self.o3}
+
+    def o3SetVelocity(self, o3_vel):
+        """
+        Set the maximum Z speed in mm/sec.
+        """
+        self.commWithResp("S M={0:.2f}".format(o3_vel))
+        
+    def o3Zero(self):
+        self.commWithResp("H M")
         
 
 if (__name__ == "__main__"):

@@ -14,8 +14,8 @@ import threading
 import PyDAQmx
 
 import storm_control.sc_library.halExceptions as halExceptions
-
-
+import sys
+numpy.set_printoptions(threshold=sys.maxsize)
 timeout = 1.0
 
 def getLock():
@@ -62,7 +62,7 @@ class AnalogOutput(NIDAQTask):
     """
     Simple analog output class
     """
-    def __init__(self, source = None, min_val = -1.0, max_val = 1.0, **kwds):
+    def __init__(self, source = None, min_val = -1.0, max_val = 10.0, **kwds):
         super().__init__(**kwds)
         with getLock():
             self.CreateAOVoltageChan(source,
@@ -152,6 +152,7 @@ class AnalogWaveformInput(NIDAQTask):
 
 
 class AnalogWaveformOutput(NIDAQTask):
+    
     """
     Analog waveform output class.
     """
@@ -184,7 +185,7 @@ class AnalogWaveformOutput(NIDAQTask):
                                      PyDAQmx.DAQmx_Val_Volts, 
                                      "")
 
-    def setWaveforms(self, waveforms = None, sample_rate = None, clock = None, finite = False, rising = True):
+    def setWaveforms(self, waveforms = None, sample_rate = None, clock = None, finite = True, rising = True):
         """
         The output waveforms for all the analog channels are expected
         to be a list of equal length numpy arrays of type numpy.float64.
@@ -229,6 +230,7 @@ class AnalogWaveformOutput(NIDAQTask):
                                 waveform,
                                 ctypes.byref(c_samples_written),
                                 None)
+                                
         
         if (c_samples_written.value != waveform_len):
             msg = "Failed to write the right number of samples "
@@ -400,7 +402,7 @@ class DigitalWaveformOutput(NIDAQTask):
                               "",
                               PyDAQmx.DAQmx_Val_ChanPerLine)
             
-    def setWaveforms(self, waveforms = None, sample_rate = None, clock = None, finite = False, rising = True):
+    def setWaveforms(self, waveforms = None, sample_rate = None, clock = None, finite = True, rising = True):
         """
         The output waveforms for all the digital channels are expected
         to be a list of equal length numpy arrays of type numpy.uint8.
@@ -433,6 +435,8 @@ class DigitalWaveformOutput(NIDAQTask):
 
         # Transfer the waveform data to the DAQ board buffer.
         waveform = numpy.ascontiguousarray(numpy.concatenate(waveforms), dtype = numpy.uint8)
+        
+        
         c_samples_written = ctypes.c_long(0)
         with getLock():
             self.WriteDigitalLines(waveform_len,
@@ -443,6 +447,9 @@ class DigitalWaveformOutput(NIDAQTask):
                                    ctypes.byref(c_samples_written),
                                    None)
 
+        print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+        print(waveform[0::waveform_len])
+        print(waveform_len)
         if (c_samples_written.value != waveform_len):
             msg = "Failed to write the right number of samples "
             msg += str(c_samples_written.value) + " " + str(waveform_len)

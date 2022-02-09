@@ -23,9 +23,23 @@ class AOTFFunctionality(amplitudeModule.AmplitudeFunctionalityBuffered):
         self.aotf.setFrequencies(self.channel, frequencies)
 
     def onOff(self, power, state):
-        self.mustRun(task = self.aotf.setAmplitude,
-                     args = [self.channel, power])
+        print("TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT")
+        print(state)
+        print(power)
+        print(self.channel)
         self.on = state
+        if self.on:
+            self.mustRun(task = self.aotf.setAmplitude,
+                         args = [7, 0])
+            self.mustRun(task = self.aotf.setAmplitude,
+                         args = [self.channel, power])
+           
+        else:
+            self.mustRun(task = self.aotf.setAmplitude,
+                         args = [7, 16383])
+            self.mustRun(task = self.aotf.setAmplitude,
+                         args = [self.channel, power])
+        
 
     def output(self, power):
         if self.on:

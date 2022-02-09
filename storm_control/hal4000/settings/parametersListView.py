@@ -100,7 +100,8 @@ class ParametersMVC(QtWidgets.QListView):
             for name in ["setting 1", "setting 2", "setting 3"]:
                 self.addParameters(name, "foo")
 
-    def addParameters(self, name, parameters):
+    def addParameters(self, name, parameters):    
+
         q_item = QtGui.QStandardItem(name)
         q_item.setData(ParametersItemData(parameters = parameters))
         q_item.setCheckable(True)
@@ -145,7 +146,8 @@ class ParametersMVC(QtWidgets.QListView):
         """
         if isinstance(value, str):
             items = self.model.findItems(value)
-
+            
+            
             #
             # FIXME: Not sure we actually want to throw an error here, maybe we
             #        should just return a list of matching parameters?

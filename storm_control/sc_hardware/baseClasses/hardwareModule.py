@@ -85,6 +85,7 @@ class BufferedFunctionality(HardwareFunctionality):
     jobStarted = QtCore.pyqtSignal()
     
     def __init__(self, device_mutex = None, **kwds):
+       
         super().__init__(**kwds)
         self.busy = False
         self.device_mutex = device_mutex

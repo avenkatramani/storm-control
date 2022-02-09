@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <branch name="Movie Loop">
+    <branch name="Beads_00">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_00</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_01">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_01</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_02">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_02</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_03">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_03</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_04">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_04</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_05">
+      <DAMoveStage>
+        <stage_x type="float">-250.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_05</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_06">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_06</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_07">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_07</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_08">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_08</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_09">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_09</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_10">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_10</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_11">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_11</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_12">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_12</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_13">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_13</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_14">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_14</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_15">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_15</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_16">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_16</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_17">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_17</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_18">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_18</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_19">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_19</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_20">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_20</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_21">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_21</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_22">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_22</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_23">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_23</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_24">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_24</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_25">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_25</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_26">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_26</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_27">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_27</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_28">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_28</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_29">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_29</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_30">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_30</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_31">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_31</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_32">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_32</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_33">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_33</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_34">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_34</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="Beads_35">
+      <DAMoveStage>
+        <stage_x type="float">250.0</stage_x>
+        <stage_y type="float">250.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">
+    	</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">Beads_35</name>
+        <length type="int">334</length>
+        <parameters type="str">
+    	</parameters>
+      </DATakeMovie>
+    </branch>
+  </branch>
+</sequence>

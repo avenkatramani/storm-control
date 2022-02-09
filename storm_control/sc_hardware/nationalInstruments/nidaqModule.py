@@ -391,9 +391,7 @@ class NidaqModule(daqModule.DaqModule):
             waveforms = []
             for data in analog_data:
                 waveforms.append(data.getWaveform())
-
-            
-            
+                
             def startAoTask():
                 
                 try:
@@ -472,20 +470,26 @@ class NidaqModule(daqModule.DaqModule):
                 self.daq_fns_by_source[waveform.getSource()].setFilming(True)
                 
             # Sort by board, channel.
-            digital_data = sorted(self.digital_waveforms, key = lambda x: x.getSource())
+            digital_data = sorted(self.digital_waveforms, key = lambda x: int(x.getSource().split("line")[-1]))
 
             # Set waveforms.
             waveforms = []
             for data in digital_data:
                 waveforms.append(data.getWaveform())
+                
+            
+            for temp in digital_data:
+                print(int(temp.getSource().split("line")[-1]))
 
             def startDoTask():
 
                 try:
                     # Create channels.
                     self.do_task = nicontrol.DigitalWaveformOutput(source = digital_data[0].getSource())
+                    print(digital_data[0].getSource())
                     for i in range(len(digital_data) - 1):
                         self.do_task.addChannel(source = digital_data[i+1].getSource())
+                        print(digital_data[i+1].getSource())
 
                     # Add waveform
                     self.do_task.setWaveforms(waveforms = waveforms,

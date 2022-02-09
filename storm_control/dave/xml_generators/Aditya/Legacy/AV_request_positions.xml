@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+
+
+    
+    <change_directory>N:\data\MPOA_01192022\Hyb7</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+
+
+    <valve_protocol>Hybridize 8</valve_protocol>
+    
+    <change_directory>N:\data\MPOA_01192022\Hyb8</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+
+
+    <valve_protocol>Hybridize 9</valve_protocol>
+    
+    <change_directory>N:\data\MPOA_01192022\Hyb9</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+
+    <valve_protocol>Hybridize 10</valve_protocol>
+    
+    <change_directory>N:\data\MPOA_01192022\Hyb10</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie"></item>
+    </loop>
+    <valve_protocol>Flow SSC</valve_protocol>
+</command_sequence>
+
+
+
+
+<item name = "Movie">
+  <movie>
+    <name increment = "Yes">488_647_560_405</name>
+    <length>460</length>
+    <parameters>lightsheet_setting</parameters>
+    <check_focus>
+        <num_focus_checks>800</num_focus_checks>
+        <focus_scan/>
+    </check_focus>
+    <variable_entry name = "Movie Loop"></variable_entry>
+  </movie>
+</item>
+
+
+<loop_variable name = "Movie Loop">
+   <file_path></file_path>
+</loop_variable>
+
+
+
+</recipe>

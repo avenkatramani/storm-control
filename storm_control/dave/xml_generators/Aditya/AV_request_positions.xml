@@ -2,22 +2,55 @@
 <recipe>
 
 <command_sequence>
-    <loop name = "Movie Loop" increment = "name">	
-		<item name = "Movie 1"></item>
+    
+    <change_directory>N:\data\MOP_thin_02042022\Hyb1</change_directory>
+    <loop name = "Movie Loop">	
+		<item name = "Movie"></item>
     </loop>
+	
+	<loop name = "Hybridize loop">
+		<variable_entry name = "Hybridize loop"></variable_entry>
+		<loop name = "Movie Loop">
+			<item name = "Movie"></item>
+		</loop>
+	</loop>
+	
+	<valve_protocol>Flow SSC</valve_protocol>
+	<email><subject>SnoutyScope</subject><body>Run Complete</body></email>
+
+	
 </command_sequence>
 
-<item name = "Movie 1">
-  <movie>
-    <name increment = "Yes">Beads</name>
-    <length>334</length>
-    <variable_entry name = "Movie Loop"></variable_entry>
-  </movie>
+
+<item name = "Movie">
+	<movie>
+		<name increment = "Yes">488_647_560_750_405</name>
+		<length>575</length>
+		<parameters>lightsheet_setting</parameters>
+		<check_focus>
+			<num_focus_checks>20</num_focus_checks>
+			<focus_scan/>
+		</check_focus>
+		<variable_entry name = "Movie Loop"></variable_entry>
+	</movie>
 </item>
+
 
 
 <loop_variable name = "Movie Loop">
    <file_path></file_path>
+</loop_variable>
+
+
+<loop_variable name = "Hybridize loop">
+		<value><valve_protocol>Cleave</valve_protocol><email><subject>SnoutyScope</subject><body>Starting Hybridize 2</body></email><valve_protocol>Hybridize 2</valve_protocol><change_directory>N:\data\MOP_thin_02042022\Hyb2</change_directory></value>
+		<value><valve_protocol>Cleave</valve_protocol><email><subject>SnoutyScope</subject><body>Starting Hybridize 3</body></email><valve_protocol>Hybridize 3</valve_protocol><change_directory>N:\data\MOP_thin_02042022\Hyb3</change_directory></value>
+		<value><valve_protocol>Cleave</valve_protocol><email><subject>SnoutyScope</subject><body>Starting Hybridize 4</body></email><valve_protocol>Hybridize 4</valve_protocol><change_directory>N:\data\MOP_thin_02042022\Hyb4</change_directory></value>
+		<value><valve_protocol>Cleave</valve_protocol><email><subject>SnoutyScope</subject><body>Starting Hybridize 5</body></email><valve_protocol>Hybridize 5</valve_protocol><change_directory>N:\data\MOP_thin_02042022\Hyb5</change_directory></value>
+		<value><valve_protocol>Cleave</valve_protocol><email><subject>SnoutyScope</subject><body>Starting Hybridize 6</body></email><valve_protocol>Hybridize 6</valve_protocol><change_directory>N:\data\MOP_thin_02042022\Hyb6</change_directory></value>
+		<value><valve_protocol>Cleave</valve_protocol><email><subject>SnoutyScope</subject><body>Starting Hybridize 7</body></email><valve_protocol>Hybridize 7</valve_protocol><change_directory>N:\data\MOP_thin_02042022\Hyb7</change_directory></value>
+		<value><valve_protocol>Cleave</valve_protocol><email><subject>SnoutyScope</subject><body>Starting Hybridize 8</body></email><valve_protocol>Hybridize 8</valve_protocol><change_directory>N:\data\MOP_thin_02042022\Hyb8</change_directory></value>
+		
 </loop_variable>
 
 </recipe>

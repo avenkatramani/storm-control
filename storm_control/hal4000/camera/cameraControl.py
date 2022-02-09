@@ -245,7 +245,7 @@ class CameraControl(QtCore.QThread):
         """
         for frame in frames:
             if self.film_length is not None:
-
+            
                 # This keeps us from emitting more than the expected number
                 # of newFrame signals.
                 if (frame.frame_number >= self.film_length):

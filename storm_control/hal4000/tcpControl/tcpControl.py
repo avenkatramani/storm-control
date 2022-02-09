@@ -165,7 +165,8 @@ class TCPActionGetParameters(TCPAction):
         self.hal_message = halMessage.HalMessage(m_type = "get parameters",
                                                  data = {"index or name" : self.tcp_message.getData("parameters")})
         self.parameters = None
-
+        
+        
     def getData(self):
         return {"parameters" : self.parameters}
 
@@ -235,6 +236,7 @@ class TCPActionSetParameters(TCPAction):
 
         # Check that the requested parameters were found.
         found = responses[0].getData()["found"]
+            
         if not found:
             self.tcp_message.setError(True, "Parameters '" + self.tcp_message.getData("parameters") + "' not found")
             self.was_handled = True

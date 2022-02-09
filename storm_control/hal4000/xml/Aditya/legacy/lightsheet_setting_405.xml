@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<settings>
+  <camera1 validate="True">
+    <binning type="string">1x1</binning>
+    <default_max type="int">2000</default_max>
+    <default_min type="int">100</default_min>
+    <defect_correct_mode type="string">OFF</defect_correct_mode>
+    <exposure_time type="float">0.012</exposure_time>
+    <master_pulse_interval type="float">0.025</master_pulse_interval>
+    <extension type="string"/>
+    <flip_horizontal type="boolean">True</flip_horizontal>
+    <flip_vertical type="boolean">False</flip_vertical>
+    <fps type="float">40</fps>
+    <readout_speed type="int">3</readout_speed>
+    <saved type="boolean">True</saved>
+    <subarray_hpos type="int">0</subarray_hpos>
+    <subarray_hsize type="int">2304</subarray_hsize>
+    <subarray_vpos type="int">0</subarray_vpos>
+    <subarray_vsize type="int">2304</subarray_vsize>
+    <transpose type="boolean">True</transpose>
+    <trigger_active type="string">EDGE</trigger_active>
+    <trigger_polarity type="string">POSITIVE</trigger_polarity>
+    <trigger_source type="string">MASTER PULSE</trigger_source>
+    <output_trigger_kind type="string">TRIGGER READY</output_trigger_kind>
+  </camera1>
+  
+  <film validate="False">
+    <acq_mode type="string">fixed_length</acq_mode>
+    <auto_increment type="boolean">True</auto_increment>
+    <auto_shutters type="boolean">True</auto_shutters>
+    <extension type="string"/>
+    <filename type="string">movie</filename>
+    <filetype type="string">.zarr</filetype>
+    <frames type="int">450</frames>
+    <want_bell type="boolean">True</want_bell>
+  </film>
+ 
+  <illumination validate="True">
+    <default_power type="custom">1.000,1.000,1.000,1.000,0.01</default_power>
+    <on_off_state type="custom">False,False,False,False,True</on_off_state>
+    <power_buttons type="custom">[[['Max', 1.0], ['Low', 0.1]], [['Max', 1.0], ['Low', 0.1]], [['Max', 1.0], ['Low', 0.1]], [['Max', 1.0], ['Low', 0.1]], [['Max', 1.0], ['Low', 0.005]]]</power_buttons>
+    <shutters type="string">C:\Users\Zhuang\storm_control\storm_control\hal4000\xml\Aditya\shutters_405.xml</shutters>
+  </illumination>
+  
+  <mosaic validate="False">
+    <flip_horizontal type="boolean">True</flip_horizontal>
+    <flip_vertical type="boolean">False</flip_vertical>
+    <obj1 type="custom">60x,0.108,0.0,0.0</obj1>
+    <obj2 type="custom">40x,0.67,0.0,0.0</obj2>
+	<obj3 type="custom">Snouty</obj3>
+    <objective type="string">obj1</objective>
+    <transpose type="boolean">True</transpose>
+  </mosaic>
+  <stage validate="True">
+    <large_step_size type="float">25.0</large_step_size>
+    <small_step_size type="float">5.0</small_step_size>
+  </stage>
+  <timing validate="True">
+    <time_base type="string">camera1</time_base>
+  </timing>
+</settings>

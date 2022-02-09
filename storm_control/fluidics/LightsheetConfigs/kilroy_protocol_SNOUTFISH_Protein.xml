@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kilroy_configuration num_valves = "3" num_pumps = "1">
+  <valve_commands>
+    <valve_cmd name = "Set Primary">
+      <valve_pos valve_ID = "1" port_ID = "25"></valve_pos>
+    </valve_cmd>
+    <valve_cmd name = "Set Block">
+      <valve_pos valve_ID = "1" port_ID = "27"></valve_pos>
+    </valve_cmd>
+    <valve_cmd name = "Set Wash">
+      <valve_pos valve_ID = "1" port_ID = "28"></valve_pos>
+    </valve_cmd>
+    <valve_cmd name = "Set Image">
+      <valve_pos valve_ID = "1" port_ID = "29"></valve_pos>
+    </valve_cmd>
+    
+
+
+  </valve_commands>
+<!-- speed 200 ~= 833 uL / 10 sec -->
+<!-- 1 uL corresponds to 1.2 pump position units -->
+<!-- speed 33 corresponds to 1 mL / min -->
+  <pump_commands>
+
+     <pump_cmd name = "Flow 0.3mL">
+       <pump_config position = "360" speed = "33"></pump_config>
+     </pump_cmd>
+	 
+	 <pump_cmd name = "Flow 0.5mL">
+       <pump_config position = "600" speed = "33"></pump_config>
+     </pump_cmd>
+	 
+     <pump_cmd name = "Flow 0.7mL">
+       <pump_config position = "840" speed = "33"></pump_config>
+     </pump_cmd>
+     <pump_cmd name = "Flow 1mL">
+       <pump_config position = "1200" speed = "33"></pump_config>
+     </pump_cmd>
+     <pump_cmd name = "Flow 1.5mL">
+       <pump_config position = "1800" speed = "33"></pump_config>
+     </pump_cmd>
+     <pump_cmd name = "Flow 1.8mL">
+       <pump_config position = "2160" speed = "33"></pump_config>
+     </pump_cmd>
+     <pump_cmd name = "Flow 2mL">
+       <pump_config position = "2400" speed = "33"></pump_config>
+     </pump_cmd>
+     <pump_cmd name = "Flow 3mL">
+       <pump_config position = "3600" speed = "33"></pump_config>
+     </pump_cmd>
+     <pump_cmd name = "Flow 4mL">
+       <pump_config position = "4800" speed = "33"></pump_config>
+     </pump_cmd>
+     <pump_cmd name = "Flow 5mL">
+       <pump_config position = "6000" speed = "33"></pump_config>
+     </pump_cmd>
+
+
+
+  </pump_commands>
+
+  <kilroy_protocols>
+
+  	<protocol name = "Protein Block">
+     	<valve duration = "5">Set Block</valve>
+    	<pump duration = "900">Flow 1mL</pump>
+		<valve duration = "5">Set Block</valve>
+    	<pump duration = "900">Flow 0.5mL</pump>
+    </protocol>
+	
+	<protocol name = "Protein Wash">
+     	<valve duration = "5">Set Wash</valve>
+    	<pump duration = "240">Flow 1mL</pump>
+		<pump duration = "240">Flow 1mL</pump>
+		<pump duration = "240">Flow 1mL</pump>
+    </protocol>
+	
+	<protocol name = "Protein Primary">
+     	<valve duration = "5">Set Primary</valve>
+    	<pump duration = "60">Flow 0.7mL</pump>
+		<valve duration = "5">Set Block</valve>
+		<pump duration = "3600">Flow 0.3mL</pump>
+    </protocol>
+
+	<protocol name = "Flow Imaging">
+     	<valve duration = "5">Set Imaging</valve>
+    	<pump duration = "120">Flow 1mL</pump>
+     </protocol>
+
+   </kilroy_protocols>
+</kilroy_configuration>

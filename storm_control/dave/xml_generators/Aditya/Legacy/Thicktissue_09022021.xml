@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <DASetDirectory>
+    <directory type="str">M:\Data\ThickTissue_09022021\647</directory>
+  </DASetDirectory>
+  <branch name="Movie Loop">
+    <branch name="647_0">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_0</name>
+        <length type="int">350</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_1">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_1</name>
+        <length type="int">350</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_2">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_2</name>
+        <length type="int">350</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_3">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_3</name>
+        <length type="int">350</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+  </branch>
+</sequence>

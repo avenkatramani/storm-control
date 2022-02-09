@@ -124,8 +124,8 @@ class DaqModule(hardwareModule.HardwareModule):
                 self.oversampling = waveform.getOversampling()
                 self.waveform_len = waveform.getWaveformLength()
             else:
-                assert (self.oversampling == waveform.getOversampling())
-                assert (self.waveform_len == waveform.getWaveformLength())
+               1#assert (self.oversampling == waveform.getOversampling())
+               1#assert (self.waveform_len == waveform.getWaveformLength())
                 
             if waveform.isAnalog():
                 self.analog_waveforms.append(waveform)

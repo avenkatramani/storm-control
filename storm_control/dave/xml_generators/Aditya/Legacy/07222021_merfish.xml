@@ -1,0 +1,4271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<sequence>
+  
+
+  <DASetDirectory>
+    <directory type="str">M:\Data\d07222021\Hyb5</directory>
+  </DASetDirectory>
+  <DAValveProtocol>Hybridize 5</DAValveProtocol>
+  <branch name="Movie Loop">
+    <branch name="750_00">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_01">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_02">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_03">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_04">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_05">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_06">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_07">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_08">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_09">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_10">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_11">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_12">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_13">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_14">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_15">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Cleave</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">M:\Data\d07222021\Hyb6</directory>
+  </DASetDirectory>
+  <DAValveProtocol>Hybridize 6</DAValveProtocol>
+  <branch name="Movie Loop">
+    <branch name="750_00">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_01">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_02">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_03">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_04">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_05">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_06">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_07">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_08">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_09">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_10">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_11">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_12">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_13">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_14">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_15">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Cleave</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">M:\Data\d07222021\Hyb7</directory>
+  </DASetDirectory>
+  <DAValveProtocol>Hybridize 7</DAValveProtocol>
+  <branch name="Movie Loop">
+    <branch name="750_00">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_01">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_02">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_03">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_04">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_05">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_06">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_07">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_08">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_09">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_10">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_11">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_12">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_13">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_14">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_15">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Cleave</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">M:\Data\d07222021\Hyb8</directory>
+  </DASetDirectory>
+  <DAValveProtocol>Hybridize 8</DAValveProtocol>
+  <branch name="Movie Loop">
+    <branch name="750_00">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_01">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_02">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_03">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_04">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_05">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_06">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_07">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_08">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_09">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_10">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_11">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_12">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_13">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_14">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_15">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Cleave</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">M:\Data\d07222021\Hyb9</directory>
+  </DASetDirectory>
+  <DAValveProtocol>Hybridize 9</DAValveProtocol>
+  <branch name="Movie Loop">
+    <branch name="750_00">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_01">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_02">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_03">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_04">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_05">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_06">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_07">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_08">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_09">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_10">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_11">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_12">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_13">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_14">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_15">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Cleave</DAValveProtocol>
+  <DASetDirectory>
+    <directory type="str">M:\Data\d07222021\Hyb10</directory>
+  </DASetDirectory>
+  <DAValveProtocol>Hybridize 10</DAValveProtocol>
+  <branch name="Movie Loop">
+    <branch name="750_00">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_00">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_00</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_01">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_01">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_01</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_02">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_02">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_02</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_03">
+      <DAMoveStage>
+        <stage_x type="float">-150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_03">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_03</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_04">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_04">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_04</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_05">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_05">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_05</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_06">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_06">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_06</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_07">
+      <DAMoveStage>
+        <stage_x type="float">-50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_07">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_07</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_08">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_08">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_08</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_09">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_09">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_09</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_10">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_10">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_10</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_11">
+      <DAMoveStage>
+        <stage_x type="float">50.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_11">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_11</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_12">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_12">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_12</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_13">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">-50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_13">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_13</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_14">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">50.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_14">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_14</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="750_15">
+      <DAMoveStage>
+        <stage_x type="float">150.0</stage_x>
+        <stage_y type="float">150.0</stage_y>
+      </DAMoveStage>
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">750_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_750</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="647_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">647_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_647</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="560_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">560_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_560</parameters>
+      </DATakeMovie>
+    </branch>
+    <branch name="405_15">
+      <DASetParameters>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DASetParameters>
+      <DATakeMovie>
+        <name type="str">405_15</name>
+        <length type="int">400</length>
+        <parameters type="str">lightsheet_setting_405</parameters>
+      </DATakeMovie>
+    </branch>
+  </branch>
+  <DAValveProtocol>Cleave</DAValveProtocol>
+</sequence>

@@ -37,8 +37,9 @@ class GalvoFunctionality(hardwareModule.HardwareFunctionality):
 
     
     def getDaqWaveform(self):
-        [start, stop, step] = numpy.array(list(map(float, self.scan.split(",")))) 
-        waveform = numpy.arange(start, stop+step, step)/1000.0
+        [start, stop, step, repeat] = numpy.array(list(map(float, self.scan.split(",")))) 
+        waveform = numpy.repeat(numpy.arange(start, stop+0.9*step, step)/1000.0, repeat)
+        waveform = numpy.append(waveform[0], waveform)
         self.scan_max = len(waveform)
         #return waveform
         return daqModule.DaqWaveform(source = self.ao_fn.getSource(),
@@ -78,9 +79,7 @@ class GalvoFunctionality(hardwareModule.HardwareFunctionality):
         self.scan_counter = 0
         
         if self.waveform != None:  
-            print("Sending message.......................................^^^^^^^^^^^^^^^$$$$$$$$$$$")
             self.daqMessage.emit(self.waveform)
-            print("Sent message.......................................^^^^^^^^^^^^^^^$$$$$$$$$$$")
             
             
              
@@ -141,6 +140,16 @@ class galvoModule(hardwareModule.HardwareModule):
                     message.addResponse(
                         halMessage.HalMessageResponse(source = self.module_name,
                         data = {"functionality" : self.galvo_functionality}))
+                        
+        elif message.isType("new parameters"):
+            try:
+                p = message.getData()["parameters"]
+                p = p.get(self.module_name)
+                self.galvo_functionality.scan = p.get('scan')
+                self.galvo_functionality.waveform = self.galvo_functionality.getDaqWaveform()
+            except:
+                pass
+           
 
         elif message.isType("start film"):
             self.galvo_functionality.startFilm(message.getData()["film settings"])

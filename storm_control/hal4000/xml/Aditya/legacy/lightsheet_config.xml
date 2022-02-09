@@ -2,7 +2,7 @@
     <config>
 
         <!-- The starting directory. -->
-        <directory type="directory">M:/Data/</directory>
+        <directory type="directory">M:/Data/CurrentAcquisition</directory>
 
         <!-- The setup name -->
         <setup_name type="string">Lightsheet</setup_name>
@@ -115,8 +115,8 @@
                     <camera_id type="int">0</camera_id>
 
                     <!-- These are the display defaults, not the camera range. -->
-                    <default_max type="int">2000</default_max>
-                    <default_min type="int">100</default_min>
+                    <default_max type="int">1000</default_max>
+                    <default_min type="int">0</default_min>
                     <flip_horizontal type="boolean">True</flip_horizontal>
                     <flip_vertical type="boolean">False</flip_vertical>
                     <transpose type="boolean">True</transpose>
@@ -153,22 +153,7 @@
 			  <xy_stage>
 				<velocity type="float">7.5</velocity>
 			  </xy_stage>
-			  <!--
-			  <z_piezo>
-				<parameters>
-				  <center type="float">250.0</center>
-				  <has_center_bar type="boolean">True</has_center_bar>
-				  <maximum type="float">500.0</maximum>
-				  <minimum type="float">0.0</minimum>
-				  <warning_high type="float">490.0</warning_high>
-				  <warning_low type="float">10.0</warning_low>
-				</parameters>
-				<ao_fn_name type="string">daq.tigerz.ao_task</ao_fn_name>
-				<axis type="string">P</axis>
-				<microns_to_volts type="float">0.02</microns_to_volts>
-				<mode type="int">1</mode>
-			  </z_piezo>
-			  -->
+			 
 			  <z_stage>
 				<center type="float">0.0</center>
 				<has_center_bar type="boolean">True</has_center_bar>
@@ -177,6 +162,12 @@
 				<warning_high type="float">9000.0</warning_high>
 				<warning_low type="float">-9000.0</warning_low>	    
 			  </z_stage>
+			 
+			  <o3_stage>
+				<center type="float">0.0</center>
+				<has_center_bar type="boolean">True</has_center_bar>  
+			  </o3_stage> 
+			  
 			</devices>
 		  </configuration>
 		</tiger_controller>
@@ -192,6 +183,18 @@
 			<small_step type="float">0.05</small_step>	
 		  </configuration>
 		</z_stage>
+		
+		<!-- o3 stage control GUI. -->
+		<o3_stage>
+		  <class_name type="string">o3Stage</class_name>
+		  <module_name type="string">storm_control.hal4000.miscControl.o3Stage</module_name>
+		  <configuration>
+			<o3_stage_fn type="string">tiger_controller.o3_stage</o3_stage_fn>
+			<large_step type="float">1.0</large_step>
+			<retracted_o3 type="float">1000.0</retracted_o3>
+			<small_step type="float">0.05</small_step>	
+		  </configuration>
+		</o3_stage>
 		
 		<!-- Galvo control GUI. -->
 		<galvoview>
@@ -212,7 +215,7 @@
 			<ao_fn_name type="string">daq.galvo1.ao_task</ao_fn_name>
 			<maximum type="float">1000.0</maximum> <!-- in mV -->
 	        <minimum type="float">-1000.0</minimum>
-			<scan type="string">-167, 167, 1.0</scan> <!-- Format = start, stop, step -->
+			<scan type="string">-225, 225, 1.0</scan> <!-- Format = start, stop, step -->
 			<used_during_filming type="boolean">True</used_during_filming>
 		  </configuration>
 		</galvo>
@@ -233,54 +236,53 @@
 			  <module_name type="string">storm_control.sc_hardware.crystalTechnologies.aotfModule</module_name>
 			  <class_name type="string">AOTF64BitModule</class_name>
 			  <configuration>
-				<use_fsk type="boolean">False</use_fsk>
-				<fsk_mode type="int">3</fsk_mode>
+				<use_fsk type="boolean">True</use_fsk>
+				<fsk_mode type="int">1</fsk_mode>
 				<python32_exe type="string">C:\Users\Zhuang\anaconda3_32\python.exe</python32_exe>
 
 				<ch750>
-				  <maximum type="int">16383</maximum>
+				  <maximum type="int">8000</maximum>
 				  <channel type="int">0</channel>
 				  <off_frequency type="float">20.0</off_frequency> 
-				  <on_frequency type="float">76.40</on_frequency>   Frequency for 750 
+				  <on_frequency type="float">76.44</on_frequency>   Frequency for 750 
 				</ch750>
 
 				<ch647>
-				  <maximum type="int">16383</maximum>
+				  <maximum type="int">8000</maximum>
 				  <channel type="int">1</channel>
 				  <off_frequency type="float">20.0</off_frequency> 
-				  <on_frequency type="float">89.56</on_frequency>   Frequency for 647 
+				  <on_frequency type="float">91.08</on_frequency>   Frequency for 647 
 				</ch647>
 				
 				<ch560>
-				  <maximum type="int">16383</maximum>
+				  <maximum type="int">8000</maximum>
 				  <channel type="int">2</channel>
 				  <off_frequency type="float">20.0</off_frequency>
-				  <on_frequency type="float">110.3</on_frequency>  Frequency for 560
+				  <on_frequency type="float">109.02</on_frequency>  Frequency for 560
 				</ch560>
 
 				<ch488>
-				  <maximum type="int">16383</maximum>
+				  <maximum type="int">9000</maximum>
 				  <channel type="int">3</channel>
 				  <off_frequency type="float">20.0</off_frequency>
-				  <on_frequency type="float">129.85</on_frequency>  Frequency for 488 
+				  <on_frequency type="float">131.20</on_frequency>  Frequency for 488 
 				</ch488>
-
+				
+				
+			  <used_during_filming type="boolean">True</used_during_filming>
 			  </configuration>
 			</ctech_aotf>
 		
 	
-		<!-- Coherent OBIS 405 laser control. 
+		<!-- Coherent OBIS 405 laser control. -->
 		<obis405>
 		  <module_name type="string">storm_control.sc_hardware.coherent.coherentModule</module_name>
 		  <class_name type="string">CoherentObis</class_name>
 		  <configuration>
-			<port type="string">COM8</port>
+			<port type="string">COM13</port>
 			<used_during_filming type="boolean">True</used_during_filming>
 		  </configuration>
-		</obis405> -->
-		
-		
-		
+		</obis405> 
 		
 		
 		<!-- Illumination (lasers, shutters, etc) control GUI. -->
@@ -288,10 +290,6 @@
             <class_name type="string">Illumination</class_name>
             <module_name type="string">storm_control.hal4000.illumination.illumination</module_name>
             <configuration>
-
-                 Note: The name of the channel is the gui_name. XML tags cannot start with numbers. 
-				
-							
 				
                 <ch1>
                     <gui_name type="string">750</gui_name>
@@ -327,9 +325,6 @@
 					<amplitude_modulation>
 						<hw_fn_name>obis405</hw_fn_name>
 					</amplitude_modulation>
-                    <digital_modulation>
-                        <hw_fn_name type="string">daq.ilm408.do_task</hw_fn_name>
-                    </digital_modulation>
                 </ch5> 
 
             </configuration>
@@ -356,41 +351,35 @@
 					<source type="string">/Dev1/ao0</source>
 				  </ao_task>
 				</galvo1>
+
+				<ch750>
+				  <do_task>
+	    				<source type="string">/Dev1/port0/line8</source>
+	  			  </do_task>
+				</ch750>
+
+				<ch647>
+				  <do_task>
+	    				<source type="string">/Dev1/port0/line9</source>
+	  			  </do_task>
+				</ch647>
+				
+				<ch560>
+				  <do_task>
+	    				<source type="string">/Dev1/port0/line10</source>
+	  			  </do_task>
+				</ch560>
+
+				<ch488>
+				  <do_task>
+	    				<source type="string">/Dev1/port0/line11</source>
+	  			  </do_task>
+				</ch488>
 				
 				
 			</configuration>
 		</daq>
-		
-		<!-- Focus lock control GUI. -->
-		<!--
-        <focuslock>
-            <class_name type="string">FocusLock</class_name>
-            <module_name type="string">storm_control.hal4000.focusLock.focusLock</module_name>
-            <configuration>
-                <ir_laser type="string">none_irlaser</ir_laser>
-                <ir_power type="int">10</ir_power>
-                <lock_modes type="string">NoLockMode,AutoLockMode,AlwaysOnLockMode,OptimalLockMode,CalibrationLockMode,HardwareZScanLockMode</lock_modes>
-                <qpd type="string">none_camera</qpd>
-                <z_stage type="string">tiger_controller.z_piezo</z_stage>
-                <parameters>
-                    <find_sum>
-                        <step_size type="float">1.0</step_size>
-                    </find_sum>
-                    <locked>
-                        <buffer_length type="int">5</buffer_length>
-                        <offset_threshold type="float">100</offset_threshold>
-                    </locked>
-                    <scan> 
-                        <minimum_sum type="float">50000</minimum_sum>
-                        <scan_step type="float">0.1</scan_step>
-                        <offset_threshold type="float">100</offset_threshold>
-                    </scan>
-                    <jump_size type="float">0.1</jump_size>
-                </parameters>
-            </configuration>
-        </focuslock>
-		-->
-		
+
 		</modules>
 
     </config>

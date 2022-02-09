@@ -34,7 +34,10 @@ class HamamatsuCameraControl(cameraControl.HWCameraControl):
                            "defect_correct_mode" : True,
                            "exposure_time" : True,
                            "output_trigger_kind[0]" : True,
-                           "output_trigger_polarity[0]" : True,
+                           #"output_trigger_polarity[0]" : True,
+                           #"output_trigger_source[0]" : True,
+                           #"output_trigger_delay[0]" : True,
+                           #"output_trigger_period[0]" : True,
                            "readout_speed" : True,
                            "subarray_hpos" : True,
                            "subarray_hsize" : True,
@@ -42,12 +45,21 @@ class HamamatsuCameraControl(cameraControl.HWCameraControl):
                            "subarray_vsize" : True,
                            "trigger_source" : True, 
                            "trigger_active" : True,
-                           "trigger_polarity" : True}
+                           "trigger_polarity" : True,
+                           "trigger_delay" : True,
+                           "master_pulse_interval" : True}
 
         max_intensity = 2**self.camera.getPropertyValue("bit_per_channel")[0]
         self.parameters.setv("max_intensity", max_intensity)
 
-        self.parameters.setv("exposure_time", 0.05)
+        self.parameters.setv("exposure_time", 0.012)
+        self.parameters.add(params.ParameterFloat(description = "master pulse interval",
+                                                     name = "master_pulse_interval",
+                                                     value = 0.012+0.013))  #The 0.013 includes 0.01122 readout and 0.0015 for galvo step time 
+
+        self.parameters.add(params.ParameterFloat(description = "Trigger delay",
+                                                     name = "trigger_delay",
+                                                     value = 0.0))        
 
         x_chip = self.camera.getPropertyValue("image_width")[0]
         y_chip = self.camera.getPropertyValue("image_height")[0]
@@ -63,30 +75,45 @@ class HamamatsuCameraControl(cameraControl.HWCameraControl):
         text_values = self.camera.sortedPropertyTextOptions("defect_correct_mode")
         self.parameters.add(params.ParameterSetString(description = "Defect correction mode.",
                                                       name = "defect_correct_mode",
-                                                      value = text_values[0],
+                                                      value = text_values[1],
                                                       allowed = text_values))
 
         # FIXME: Can't save this as the property name is not valid XML.
         text_values = self.camera.sortedPropertyTextOptions("output_trigger_kind[0]")
         self.parameters.add(params.ParameterSetString(description = "Camera 'fire' pin output kind.",
                                                       name = "output_trigger_kind[0]",
-                                                      value = text_values[1],
+                                                      value = text_values[3], #trigger ready
                                                       allowed = text_values,
                                                       is_saved = False))
+                                                      
+        #text_values = self.camera.sortedPropertyTextOptions("output_trigger_source[0]")
+        #self.parameters.add(params.ParameterSetString(description = "Camera 'fire' pin output source",
+        #                                              name = "output_trigger_source[0]",
+        #                                              value = text_values[2],
+        #                                              allowed = text_values,
+        #                                              is_saved = False))
 
         # FIXME: Can't save this as the property name is not valid XML.
-        text_values = self.camera.sortedPropertyTextOptions("output_trigger_polarity[0]")
-        self.parameters.add(params.ParameterSetString(description = "Camera 'fire' pin output polarity.",
-                                                      name = "output_trigger_polarity[0]",
-                                                      value = text_values[1],
-                                                      allowed = text_values,
-                                                      is_saved = False))
+        #text_values = self.camera.sortedPropertyTextOptions("output_trigger_polarity[0]")
+        #self.parameters.add(params.ParameterSetString(description = "Camera 'fire' pin output polarity.",
+        #                                              name = "output_trigger_polarity[0]",
+        #                                              value = text_values[1], #Positive
+        #                                              allowed = text_values,
+        #                                              is_saved = False))
+                                                      
+        #self.parameters.add(params.ParameterFloat(description = "Output trigger delay",
+        #                                             name = "output_trigger_delay[0]",
+        #                                             value = 0.0)) 
+
+        #self.parameters.add(params.ParameterFloat(description = "Output trigger period",
+        #                                             name = "output_trigger_period[0]",
+        #                                             value = 0.001)) 
                                                      
         self.parameters.add(params.ParameterRangeInt(description = "Read out speed",
                                                      name = "readout_speed",
-                                                     value = 2,
+                                                     value = 3,
                                                      min_value = 1,
-                                                     max_value = 2))
+                                                     max_value = 3))
 
         # These all need to multiples of 4.
         self.parameters.add(params.ParameterRangeInt(description = "AOI X start",
@@ -116,13 +143,13 @@ class HamamatsuCameraControl(cameraControl.HWCameraControl):
         text_values = self.camera.sortedPropertyTextOptions("trigger_source")
         self.parameters.add(params.ParameterSetString(description = "Camera trigger source.",
                                                       name = "trigger_source",
-                                                      value = config.get("trigger_source",text_values[0]),
+                                                      value = config.get("trigger_source",text_values[3]),
                                                       allowed = text_values))
         
         text_values = self.camera.sortedPropertyTextOptions("trigger_active")
         self.parameters.add(params.ParameterSetString(description = "Camera trigger type.",
                                                       name = "trigger_active",
-                                                      value = config.get("trigger_active", text_values[2]),
+                                                      value = config.get("trigger_active", text_values[0]),
                                                       allowed = text_values))
         
         text_values = self.camera.sortedPropertyTextOptions("trigger_polarity")
@@ -130,6 +157,8 @@ class HamamatsuCameraControl(cameraControl.HWCameraControl):
                                                       name = "trigger_polarity",
                                                       value = config.get("trigger_polarity",text_values[1]),
                                                       allowed = text_values))
+                                                      
+                                            
 
 
         ## Disable editing of the HAL versions of these parameters.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+
+<valve_protocol>Hybridize test 1</valve_protocol>
+<valve_protocol>Cleave test</valve_protocol>
+<valve_protocol>Hybridize test 4</valve_protocol>
+<valve_protocol>Cleave test</valve_protocol>
+<valve_protocol>Hybridize test 7</valve_protocol>
+<valve_protocol>Cleave test</valve_protocol>
+<valve_protocol>Hybridize test 10</valve_protocol>
+<valve_protocol>Cleave test</valve_protocol>
+<valve_protocol>Hybridize test 13</valve_protocol>
+<valve_protocol>Cleave test</valve_protocol>
+<valve_protocol>Hybridize test 16</valve_protocol>
+<valve_protocol>Cleave test</valve_protocol>
+<valve_protocol>Hybridize test 19</valve_protocol>
+<valve_protocol>Cleave test</valve_protocol>
+<valve_protocol>Hybridize test 22</valve_protocol>
+<valve_protocol>Cleave test</valve_protocol>
+<valve_protocol>Hybridize test 25</valve_protocol>
+<valve_protocol>Cleave test</valve_protocol>
+
+</command_sequence>
+
+
+
+</recipe>

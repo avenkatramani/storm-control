@@ -117,8 +117,10 @@ class ZarrFile(BaseFileWriter):
         super().__init__(**kwds)
         group = self.filename.split("_")[-1].split(".")[0]
         root = zarr.open(self.filename, mode='w')
-        group = root.create_group(group)
-        self.z1 = group.empty('data', shape=(1,2304,2304), chunks=(1,2304,2304), dtype='uint16')
+        self.group = root.create_group(group)
+        self.w = int(self.cam_fn.getParameter("x_pixels"))
+        self.h = int(self.cam_fn.getParameter("y_pixels"))
+        
         
     def closeWriter(self):
         """
@@ -127,27 +129,26 @@ class ZarrFile(BaseFileWriter):
         """
         super().closeWriter()
         
-        w = str(self.cam_fn.getParameter("x_pixels"))
-        h = str(self.cam_fn.getParameter("y_pixels"))
         with open(self.basename + ".inf", "w") as inf_fp:
             inf_fp.write("binning = 1 x 1\n")
             inf_fp.write("data type = 16 bit integers (binary, little endian)\n")
-            inf_fp.write("frame dimensions = " + w + " x " + h + "\n")
+            inf_fp.write("frame dimensions = " + str(self.w) + " x " + str(self.h) + "\n")
             inf_fp.write("number of frames = " + str(self.number_frames) + "\n")
             if True:
                 inf_fp.write("x_start = 1\n")
-                inf_fp.write("x_end = " + w + "\n")
+                inf_fp.write("x_end = " + str(self.w) + "\n")
                 inf_fp.write("y_start = 1\n")
-                inf_fp.write("y_end = " + h + "\n")
+                inf_fp.write("y_end = " + str(self.h) + "\n")
             inf_fp.close()
 
     def saveFrame(self, frame):
-        
-        super().saveFrame()
         image = frame.getData()
         image = np.array(image)
-        image = image.reshape(1,2304,2304)
-        self.z1.append(image)
+        image = image.reshape(1,self.h,self.w)
+        if frame.frame_number == 0:
+            self.z1 = self.group.array('data', image, chunks=(1,self.h,self.w), dtype='uint16')
+        else:
+            self.z1.append(image)
         
 class DaxFile(BaseFileWriter):
     """

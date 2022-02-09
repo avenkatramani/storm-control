@@ -179,7 +179,7 @@ def parseShuttersXML(channel_name_to_id, shutters_file, can_oversample = True):
             while i < color_end:
                 color_data[i] = color
                 i += 1
-
+    
     return [ShuttersInfo(color_data = color_data, frames = frames),
             waveforms,
             oversampling]

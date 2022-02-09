@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<recipe>
+
+<command_sequence>
+    
+    
+    <change_directory>N:\Data\DNAFish08062021\Hyb7</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 8</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb8</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 9</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb9</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 10</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb10</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 11</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb11</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 12</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb12</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 13</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb13</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 14</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb14</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 15</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb15</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 16</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb16</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 17</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb17</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 18</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb18</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 19</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb19</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 20</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb20</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 21</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb21</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 22</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb22</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 23</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb23</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+	
+	<valve_protocol>Hybridize 24</valve_protocol>
+    <valve_protocol>Hybridize Readout</valve_protocol>
+	<change_directory>N:\Data\DNAFish08062021\Hyb24</change_directory>
+    <loop name = "Movie Loop" increment = "name">	
+		<item name = "Movie 488"></item>
+		<item name = "Movie 647"></item>
+		<item name = "Movie 750"></item>
+    </loop>
+    <valve_protocol>Cleave</valve_protocol>
+    <valve_protocol>Flow SSC</valve_protocol>
+
+
+
+</command_sequence>
+
+
+<item name = "Movie 750">
+  <movie>
+    <name increment = "Yes">750</name>
+    <length>400</length>
+    <parameters>lightsheet_setting_750</parameters>
+  </movie>
+</item>
+
+<item name = "Movie 647">
+  <movie>
+    <name increment = "Yes">647</name>
+    <length>400</length>
+    <parameters>lightsheet_setting_647</parameters>
+  </movie>
+</item>
+
+<item name = "Movie 488">
+  <movie>
+    <name increment = "Yes">488</name>
+    <length>400</length>
+    <variable_entry name = "Movie Loop"></variable_entry>
+    <parameters>lightsheet_setting_488</parameters>
+  </movie>
+</item>
+
+<item name = "Movie 405">
+  <movie>
+    <name increment = "Yes">405</name>
+    <length>400</length>
+    <variable_entry name = "Movie Loop"></variable_entry>
+    <parameters>lightsheet_setting_405</parameters>
+  </movie>
+</item>
+
+<loop_variable name = "Movie Loop">
+   <file_path></file_path>
+</loop_variable>
+
+</recipe>
